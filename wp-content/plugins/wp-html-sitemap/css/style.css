@@ -1,0 +1,219 @@
+/*
+ 	WP HTML Sitemap
+	Contact: Bill Edgar (bill.edgar@oaktondata.com)
+	http://www.oaktondata.com/wordpress-html-sitemap
+	
+	Copyright (c) 2012, Oakton Data LLC
+	All rights reserved.
+
+	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+	    
+	    * Redistributions of source code must retain the above copyright
+	      notice, this list of conditions and the following disclaimer.
+	    * Redistributions in binary form must reproduce the above copyright
+	      notice, this list of conditions and the following disclaimer in the
+	      documentation and/or other materials provided with the distribution.
+	    * Neither the name of the Oakton Data LLC nor the
+	      names of its contributors may be used to endorse or promote products
+	      derived from this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+	ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+	WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+	DISCLAIMED. IN NO EVENT SHALL Oakton Data LLC BE LIABLE FOR ANY
+	DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+	(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+	LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+	ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+	(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	
+	This is the WP HTML Sitemap CSS theme.
+	
+ */
+#options_form p {
+	line-height: 1.5em;
+}
+.countLabel {
+	color: #707070;
+}
+#exclude {
+	margin: 0 0 0 2.5em;
+	float: left;
+}
+#display {
+	clear: none;
+	margin: 0 0 0 10em;
+}
+
+#duallistbox {
+	line-height: 1.3em;
+	font-size: 12px;
+}
+#filter {
+	
+}
+#sections {
+	padding: 0 0 0 3.75em;
+}
+#sections p {
+	color: #000066;
+}
+#select_buttons {
+	margin: 3.5em 0 0 0;
+	text-align: center;
+}
+#select_buttons button, #order_buttons button, #filter button {
+	margin: 0 .1em 0 .1em;
+}
+#order_buttons {
+	margin: 1.5em 0 0 0;
+	text-align: center;
+}
+#sections_displayed, #sections_excluded {
+	height: 125px;
+	width: 125px;
+}
+#wp-html-sitemap-about-postbox p, #wp-html-sitemap-about-side-postbox p, #wp-html-sitemap-about-side-postbox ul, 
+#wp-html-sitemap-general-settings-header-postbox p, #wp-html-sitemap-about-side-postbox li {
+	line-height: 1.5em;
+}
+#wp-html-sitemap-product-settings-postbox p, #wp-html-post-sitemap-post-settings-postbox p, 
+#wp-html-sitemap-page-settings-postbox p, #wp-html-sitemap-forum-settings-postbox p,
+#wp-html-sitemap-topic-settings-postbox p, #wp-html-sitemap-category-settings-postbox p,
+#wp-html-sitemap-author-settings-postbox p {
+	line-height: 1.5em;
+}
+p.chart_title {
+	font-size: 14px;
+	text-align: center;
+	color: #0066FF;
+}
+img.aligncenter {
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.center {
+	padding: 0px 0px 0px 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+table.center td {
+	margin: 0px 0px 0px 0px;
+}
+table.center tr {
+	vertical-align: top;
+}
+table.center th {
+	font-size: 12px;
+	font-weight: normal;
+	color: #808080;
+	margin: 3px 0px 3px 0px;
+}
+table.dash_header {
+	font-size: 12px;
+	padding: 0px;
+}
+table.dash_header td {
+	margin: 0px 8px 0px 4px;
+	padding: 0px 2px 0px 0px;
+}
+table.dash_header td.column_label {
+	color: #808080;
+}
+table.donate {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+table.donate form {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.metadata {
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+table.metadata td {
+	padding: 0px 2px 0px 2px;
+}
+table.stars {
+	float:left;
+	margin: 0px;
+	padding: 0px;
+}
+table.stars h4 {
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+}
+table.stars tr {
+	margin: 0px;
+	padding: 0px;
+}
+table.stars td {
+	margin: 0px 12px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	vertical-align:middle;	
+}
+table.trends {
+	margin-right: auto;
+	margin-left: auto;
+}
+table.trends td {
+	padding: 0px 2px 0px 2px;
+}
+.date_span {
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+.list-lft {
+	font-size: 14px;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+}
+.list-ctr {
+	font-size: 14px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+.read-only {
+	color: #7D7D7D;
+	background: #F0F0F0;
+}
+div.content_panel {
+	padding: 5px 10px;
+	line-height: 1.5em;
+}
+div.content_panel h4 {
+	font-size: 13px;
+	font-weight: normal;
+	color: #808080;
+}
+div.content_panel th {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000066;
+	vertical-align: middle;
+}
+div.content_panel ul {
+	margin-left: 2em;
+}
+div.head_panel {
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+}
+div.header p {
+	font-size: 14px;
+	padding: 0px 10px 0px 10px;	
+}
+div.setting_row {
+	clear: both;	
+}
