@@ -40,13 +40,14 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_class' => 'nav-menu' ) ); ?>
 		<div id="loginout-link"><?php wp_loginout(); ?></div>
 		</nav><!-- #site-navigation -->
-		<hgroup>
-			<div class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
+		<div id="site-logo">
+			<a href="/" ><img src="/wp-content/themes/twentytwelve/images/sampark.png" width="200px" height="65px"></a>
+		</div>
 
 		<?php $header_image = get_header_image();
-do_action('slideshow_deploy', '178');
+ // check if it is front page, then only run it else don't
+if(is_front_page()) 
+    do_action('slideshow_deploy', '178');
 		if ( 0 && ! empty( $header_image ) ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>

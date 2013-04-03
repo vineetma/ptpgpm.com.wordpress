@@ -44,6 +44,8 @@
     $result[] = array();
     // search for opening brace in the text
     $x = strpos($user_input, "{");
+    $plain_text_content = substr($user_input,0,$x-1);
+    echo $plain_text_content;
     // find command (query_meta)
     $y = strpos($user_input, " ", $x);
     $cmd = substr($user_input, $x+1, $y-$x-1);
