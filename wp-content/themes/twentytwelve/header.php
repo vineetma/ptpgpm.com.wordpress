@@ -34,11 +34,11 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<nav id="top-navigation" class="top-navigation" role="navigation">
+		<nav id="top-navigation" class="top-navigation" role="navigation" style="margin-top:10px;">
 			<h3 class="menu-toggle"><?php _e( 'Top Menu', 'twentytwelve' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_class' => 'nav-menu' ) ); ?>
-		<div id="loginout-link"><?php wp_loginout(); ?></div>
+		<div id="loginout-link" style="margin:0px 0 0 10px;"><?php wp_loginout(); ?></div>
 		</nav><!-- #site-navigation -->
 		<div id="site-logo">
 			<a href="/" ><img src="/wp-content/themes/twentytwelve/images/sampark.png" width="200px" height="65px"></a>
